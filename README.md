@@ -1,50 +1,68 @@
-Deployed Link:-
-https://n-queen-visualizer-ng440.netlify.app/
+# ♟️ N-Queen Visualizer
 
-# N-Queen Visualizer
+An interactive **N-Queen Problem Visualizer** that demonstrates how the backtracking algorithm works to solve the N-Queens puzzle.
 
-A lightweight, interactive visualizer for the N-Queens problem. Explore how a backtracking solver searches for valid placements on an N×N chessboard and watch solutions appear in real time.
+## 📌 Project Description
+The **N-Queen problem** is a classic problem in computer science where we place **N queens** on an **N × N chessboard** such that:
+- No two queens are in the same row
+- No two queens are in the same column
+- No two queens attack each other diagonally
 
-## Features
+This project visually explains how the algorithm finds the correct arrangement step by step.
 
-- Step-by-step visualization of the backtracking algorithm
-- Adjustable board size (N)
-- Play / Pause / Step controls and speed adjustment
-- Reset board and view multiple solutions
+## 🚀 Features
+- Chessboard visualization
+- Step-by-step queen placement
+- Backtracking algorithm demonstration
+- Beginner-friendly interface
+- Algorithm learning project
 
-## Live Demo
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-Open the app locally by opening [index.html](index.html) in your browser, or serve the folder and visit it in a browser:
-
-```bash
-# from the project root
-python -m http.server 8000
-# then open http://localhost:8000
+## 📂 Project Structure
+```
+N-QUEEN-VISUALIZER
+│
+├── index.html
+├── style.css
+├── app.js
+├── README.md
+└── visualisation.gif
 ```
 
-There may also be a hosted demo linked from the original project site.
+## ▶️ How to Run the Project
+1. Clone the repository
+```
+git clone https://github.com/anantazad2020in-del/N-Queen.git
+```
 
-## Usage
+2. Open the project folder.
 
-- Use the UI controls to set the board size and start the solver.
-- Use `Step` to advance the algorithm one decision at a time.
-- Increase the speed slider to accelerate the visualization.
+3. Run the project by opening:
+```
+index.html
+```
+in your browser.
 
-## Project Files
+## 🧠 Algorithm Used
+This project uses the **Backtracking Algorithm**:
+1. Place a queen in a safe column.
+2. Move to the next row.
+3. If conflict occurs, backtrack.
+4. Repeat until the solution is found.
 
-- [index.html](index.html) — main UI
-- [app.js](app.js) — visualization and solver logic
-- [style.css](style.css) — styles
+## 📸 Demo
+A visualization GIF is included in the project to show how the algorithm works.
 
-## Contributing
+## 📈 Future Improvements
+- Add animation speed control
+- Allow custom board size
+- Improve UI design
+- Show total number of solutions
 
-Improvements, bug fixes, and feature requests are welcome. Fork the repo, create a branch, and open a pull request with a description of your changes.
-
-## License
-
-This project is shared under the MIT License (or check the included `LICENSE` file).
-
-## Contact
-
-If you want a tailored README (more screenshots, GIFs, or usage examples), tell me what to include and I will update it.
-
+## 👨‍💻 Author
+**Anant Azad**  
+B.Tech CSE Student
